@@ -1,0 +1,20 @@
+.secondary
+.flagme-italiano {
+	background-image: url("../icons/italiano.png");
+}
+
+.secondary
+.flagme-english {
+	background-image: url("../icons/english.png");
+}
+
+.secondary
+.flagme {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.25em;
+	margin-bottom: 0.25em;
+	width: 22px;
+	height: 16px;
+	background-repeat: no-repeat;
+}
