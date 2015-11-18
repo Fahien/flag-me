@@ -62,22 +62,39 @@ if ( ! function_exists( 'flagme_add_language_box' ) &&
 	 * Create the Language Box Form
 	 */
 	function flagme_inner_language_box( $post ) {
+		$languages = array(
+			array( 'العربية', 'ar' ),
+			array( 'Deutsch', 'de' ),
+			array( 'English', 'en' ),
+			array( 'Español', 'es' ),
+			array( 'فارسی', 'fa' ),
+			array( 'Suomi', 'fi' ),
+			array( 'Français', 'fr' ),
+			array( 'Italiano', 'it' ),
+			array( '日本語', 'ja' ),
+			array( 'Nederlands', 'nl' ),
+			array( 'Norsk bokmål', 'no' ),
+			array( 'Polski', 'pl' ),
+			array( 'Português', 'pt' ),
+			array( 'Русский', 'ru' ),
+			array( 'Svenska', 'sv' ),
+			array( 'Українська', 'uk' ),
+			array( 'Tiếng Việt', 'vi' ),			
+			array( '中文', 'zh' )
+		);
 		$value = get_post_meta( $post->ID, 'flagme-language', true);
 		?>
 		<select name="flagme-language" id="flagme-language" class="postbox">
 			<option value="">
 				<?php _e( 'Select language', 'flag-me' ); ?>
 			</option>
-			<option value="english" 
-				<?php if ( 'english' == $value ) echo 'selected="selected"'; ?>
-			>
-				English
-			</option>
-			<option value="italiano" 
-				<?php if ( 'italiano' == $value ) echo 'selected="selected"'; ?>
-			>
-				Italiano
-			</option>
+			<?php
+			foreach ( $languages as $language ) {
+				echo '<option value="' . $language[1] . '"';
+				if ( $language[1] == $value ) echo 'selected="selected"';
+				echo '>' . $language[0] . '</option>';
+			}
+			?>
 		</select>
 		<?php
 	}

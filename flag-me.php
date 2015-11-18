@@ -3,7 +3,7 @@
 Plugin Name:	Flag Me
 Plugin URI:	http://www.fahien.me/flag-me
 Description:	Flag Me enables you to add a country flag before the title of your posts or pages.
-Version:	0.1
+Version:	0.2
 Author:		Antonio Caggiano
 Author URI:	http://www.fahien.me
 License:	GPL3
