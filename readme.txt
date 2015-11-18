@@ -1,6 +1,6 @@
 === Flag Me ===
 Contributors: Fahien
-Donate link: http://www.fahien.com/donate
+Donate link: http://www.fahien.me/donate
 Tags: internationalization, localization
 Requires at least: 3.8
 Tested up to: 4.3
@@ -24,10 +24,16 @@ Since I started my personal blog, I began to wonder what would be the right way 
 2. Activate the plugin through the *Plugins* menu in WordPress;
 3. Edit your post and pick a language from the *Language Box*.
 
+== Screenshots ==
+
+1. Flag Me in action
+2. The Language Box
+
 == Changelog ==
 
 = 0.2 =
 This version adds 16 other languages:
+
 * Arabic;
 * German;
 * Spanish;
@@ -47,5 +53,6 @@ This version adds 16 other languages:
 
 = 0.1 =
 The initial version supports only two languages:
+
 * English;
 * Italian.

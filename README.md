@@ -11,6 +11,11 @@ Since I started my personal blog, I began to wonder what would be the right way 
 2. Activate the plugin through the *Plugins* menu in WordPress;
 3. Edit your post and pick a language from the *Language Box*.
 
+## Screenshots
+
+![Flag Me in action](assets/screenshot-1.png?raw=true "Flag Me in action")
+![The Language Box](assets/screenshot-2.png?raw=true "The Language Box")
+
 ## Changelog
 
 ### 0.2
